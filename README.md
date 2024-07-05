@@ -73,6 +73,10 @@ The service fails to start - `npm run start:dev` - Use the messages to fix the c
 
 ## Part 2
 
+## My Solution
+
+Initially after some searching around I thought the USER_SERVICE_URL was an env variable stored in an .env file and that it would need to be imported from the .env file using process.env. However after noticing that there was not an .env file present in the application I came across cross-env. A node package that sets environment variables in different operating systems, in my case I am using windows.
+
 A test is failing - `npm run test` - impolement the code necessary to pass the test
 
 ## Part 3 - Strech
